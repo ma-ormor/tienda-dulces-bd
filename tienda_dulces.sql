@@ -87,13 +87,6 @@ CREATE TABLE `usuario` (
   `u_rol` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `usuario`
---
-
-INSERT INTO `usuario` (`u_clave`, `u_alias`, `u_contrasena`, `u_rol`) VALUES
-(6, 'marco', 'pass', 'cliente');
-
 -- --------------------------------------------------------
 
 --
